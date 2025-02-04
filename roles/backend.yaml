@@ -1,5 +1,5 @@
 - name: configure backend
-  hosts: mysql
+  hosts: backend
   become: yes
   roles: 
   - backend
