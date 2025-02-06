@@ -2,8 +2,7 @@
   hosts: nginx
   #hosts: all
   become: yes #take sudo access
-  forks: 5
-  serial: 5
+  #serial: 5
   tasks:
   - name: install nginx
     ansible.builtin.package: #heterongenous module that can work for all distros
