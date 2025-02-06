@@ -2,6 +2,10 @@
   hosts: backend
   become: yes
   vars_files: 
-  - ../var/expense/mysql.credentials.yaml
+  - /home/ec2-user/var/expense/mysql-credentials.yaml
   roles: 
   - backend
+
+
+
+  
